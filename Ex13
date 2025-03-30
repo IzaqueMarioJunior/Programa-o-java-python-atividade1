@@ -1,0 +1,7 @@
+salario = float(input("salário inícial: "))
+qtd_anos = int(input("quantidade de anos: "))
+
+
+for x in range (qtd_anos):
+    s_atual = (salario*(x+1)*2)*qtd_anos
+    print(f"O salário vai ser: {s_atual}")

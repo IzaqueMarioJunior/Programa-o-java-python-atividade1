@@ -1,0 +1,12 @@
+qtd_turmas = int(input("Insira a quantidade de turmas: "))
+total = 0
+
+
+for i in range(qtd_turmas):
+    alunosturma = int(input(f"quantidade de alunos na turma {i}: "))
+    if alunosturma > 40:
+        print("maior que 40.")
+    else:
+        total += alunosturma
+        media = total / (i+1)
+        print(f"A média de alunos por turma: {media}")

@@ -1,0 +1,12 @@
+def primo(n):
+    if n <= 1:
+        return False
+    for x in range(2,int(n** 0.5) + 1):
+        if n % x == 0:
+            return False
+    return True
+num = int(input("número inteiro maior que 1:"))
+if primo(num):
+    print(f"{num}, número primo.") 
+else:
+    print(f"{num}, não número primo.")

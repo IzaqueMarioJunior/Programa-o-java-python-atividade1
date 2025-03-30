@@ -1,0 +1,8 @@
+usuario = input("Insira um número de usuário: ")
+senha = input("Insira uma senha: ")
+
+
+if senha == usuario:
+    print("número de senha e usuario iguas, não pode.")
+else:
+    print("Login feito.")

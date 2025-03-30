@@ -1,0 +1,12 @@
+dias = int(input("dias rodados: "))
+km= int(input("km rodados: "))
+
+
+if km > 100:
+    kmextra = km - 100
+    valor_extra = kmextra*12
+    total_passado = dias*90 + valor_extra
+    print(f"O valor a paga: {total_passado}")
+else:
+    total= dias*90
+    print(f"O valor a pagar: {total}")

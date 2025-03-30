@@ -1,0 +1,8 @@
+preco = float(input("mercadoria:"))
+
+
+if preco > 500:
+    precototal = preco + preco*0.5
+    print(f"impostos: {precototal}")
+else:
+    print("não sofrerá impostos")

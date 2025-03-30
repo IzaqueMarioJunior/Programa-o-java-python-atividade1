@@ -1,0 +1,11 @@
+num1 = float(input("Insira a primeira nota:"))
+num2 = float(input("Insira a segunda nota:"))
+num3 = float(input("Insira a terceira nota:"))
+
+
+mediaaritmetica = (num1+num2+num3)/3
+mediaponderada1 = ((num1*2)+(num2*2)+(num3*3))/7
+mediaponderada2 = (num1+(num2*2)+(num3*2))/5
+
+
+print(f"A média aritmética dos números: {mediaaritmetica}, média ponderada com os pesos 2, 2 e 3: {mediaponderada1} e a média ponderada com os pesos 1, 2, 2: {mediaponderada2}")

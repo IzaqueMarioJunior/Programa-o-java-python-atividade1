@@ -1,0 +1,11 @@
+numero = int(input("número impar: "))
+
+
+numanterior = numero - 2
+numposterior = numero + 2
+
+
+diferenca = (numanterior)**2 - (numposterior)**2
+
+
+print(f"a diferença: {diferenca}")
